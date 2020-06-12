@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="470.184695">
+<testcase classname="validate the login and registration" name="validate the login functionality" time="151.740144">
+<system-out><![CDATA[When user enters the invalid "venkat123" and "jolly123".....................passed
+And user click the login button.............................................passed
+Then user verifies the error message........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate the login and registration" name="validate the login functionality 2" time="129.712026">
+<system-out><![CDATA[When user enters the invalid "eswar123" and "lalala"........................passed
+And user click the login button.............................................passed
+Then user verifies the error message........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate the login and registration" name="validate the login functionality 3" time="14.459803">
+<system-out><![CDATA[When user enters the invalid "abcdef" and "1212121".........................passed
+And user click the login button.............................................passed
+Then user verifies the error message........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate the login and registration" name="validate the text properties of create an account" time="20.600302">
+<system-out><![CDATA[When user get the text properties of create an account......................passed
+Then user verifies the text properties......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user registers a facebook account and validate the number of images" name="user validate the number of images" time="153.67242">
+<system-out><![CDATA[When user get the no.of images..............................................passed
+Then user validate the no.of images in the homepage.........................passed
+]]></system-out>
+</testcase>
+</testsuite>

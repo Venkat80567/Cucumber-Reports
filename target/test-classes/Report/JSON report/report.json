@@ -1,0 +1,410 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "    user is on the facebook page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 150386529566,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "validate the login functionality",
+        "description": "",
+        "id": "validate-the-login-and-registration;validate-the-login-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 663292571,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 437198603,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the invalid \"venkat123\" and \"jolly123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"venkat123\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"jolly123\"",
+                  "offset": 40
+                }
+              ],
+              "location": "HomePageStep.user_enters_the_invalid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 247704892,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click the login button",
+            "match": {
+              "location": "HomePageStep.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215390,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verifies the error message",
+            "match": {
+              "location": "HomePageStep.user_verifies_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "    user is on the facebook page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 127544203144,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "validate the login functionality",
+        "description": "",
+        "id": "validate-the-login-and-registration;validate-the-login-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 662707143,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1391586521,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the invalid \"eswar123\" and \"lalala\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"eswar123\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"lalala\"",
+                  "offset": 39
+                }
+              ],
+              "location": "HomePageStep.user_enters_the_invalid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112749907,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click the login button",
+            "match": {
+              "location": "HomePageStep.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99492,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verifies the error message",
+            "match": {
+              "location": "HomePageStep.user_verifies_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "    user is on the facebook page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13103178139,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "validate the login functionality",
+        "description": "",
+        "id": "validate-the-login-and-registration;validate-the-login-functionality;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 641254709,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 597054707,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the invalid \"abcdef\" and \"1212121\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdef\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"1212121\"",
+                  "offset": 37
+                }
+              ],
+              "location": "HomePageStep.user_enters_the_invalid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117987342,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click the login button",
+            "match": {
+              "location": "HomePageStep.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verifies the error message",
+            "match": {
+              "location": "HomePageStep.user_verifies_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "    user is on the facebook page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19640518821,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "validate the text properties of create an account",
+        "description": "",
+        "id": "validate-the-login-and-registration;validate-the-text-properties-of-create-an-account",
+        "after": [
+          {
+            "result": {
+              "duration": 677163763,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 181824497,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user get the text properties of create an account",
+            "match": {
+              "location": "HomePageStep.user_get_the_text_properties_of_create_an_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100471974,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user verifies the text properties",
+            "match": {
+              "location": "HomePageStep.user_verifies_the_text_properties()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate the login and registration",
+    "description": "",
+    "id": "validate-the-login-and-registration",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/LoginRegistration.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "    user is on the facebook page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 152879218521,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "user validate the number of images",
+        "description": "",
+        "id": "user-registers-a-facebook-account-and-validate-the-number-of-images;user-validate-the-number-of-images",
+        "after": [
+          {
+            "result": {
+              "duration": 680768143,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96268200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user get the no.of images",
+            "match": {
+              "location": "HomePageStep.user_get_the_no_of_images()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15908495,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validate the no.of images in the homepage",
+            "match": {
+              "location": "HomePageStep.user_validate_the_no_of_images_in_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user registers a facebook account and validate the number of images",
+    "description": "",
+    "id": "user-registers-a-facebook-account-and-validate-the-number-of-images",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Registration.feature",
+    "tags": []
+  }
+]
